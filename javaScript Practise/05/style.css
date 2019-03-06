@@ -1,0 +1,71 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+
+#wrapper {
+
+	width: 80%;
+	margin: auto;
+}
+
+header {
+	height: 120px;
+	background-color: red;
+}
+
+nav {
+    background: #FFE31F;
+    color: white;
+    height: 56px;
+ 	
+}
+nav ul {
+    margin: -10px;
+    padding: 17px;
+    list-style: none;
+}
+nav ul li{
+	display: block;
+	float: left;
+}
+nav ul li a {
+    color: blue;
+	background: white; 
+    text-decoration: none;
+    padding: 11px;
+    margin: 24px;
+    font-size: 15px;
+    transition-duration: 1500ms;
+}
+nav ul li a:hover {
+	background: purple;
+	color: white;
+}
+
+#content {
+	min-height: auto;
+	background-color: blue;
+}
+
+section{
+	padding: 2%;
+	float: left;
+	width: 66%;
+	min-height: 500px;
+	background-color: red;
+}
+
+aside{
+	padding: 2%;
+	float: right;
+	width: 26%;
+	min-height: 500px;
+	background-color: green;
+}
+
+footer{
+	clear: both;
+	height: 60px;
+	background-color: white;
+}
